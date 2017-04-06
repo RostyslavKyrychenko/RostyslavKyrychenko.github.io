@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #2c2c2c;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 a {
+  color: #313131;
+  display: inline-block;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+nav ul {
+  background: linear-gradient(rgba(94, 94, 94, 1), rgba(67, 67, 67, 1));
+  height: 40px;
+  margin-top: 30px;
+}
+
+nav li {
+  border-left: 1px solid rgba(0, 0, 0, 0);
+  border-right: 1px solid rgba(0, 0, 0, 0);
+  float: left;
+}
+
+nav li:hover {
+  background: linear-gradient(rgba(74, 74, 74, 1), rgba(46, 46, 46, 1));
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  margin: 0;
+}
+
+nav .first:hover {
+  border-left: 1px solid transparent;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  font-size: 11px;
+  padding: 11px 42px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+}
+
+aside {
+  border: 1px solid #c8c8c8;
+  float: left;
+  width: 238px;
+}
+
+aside li {
+  border-bottom: 1px solid #c8c8c8;
+}
+
+aside li:hover {
+  background-color: #f9f9f9;
+}
+
+aside .last {
+  border-bottom: 0;
+}
+
+aside li a {
+  color: #656363;
+  display: block;
+  font-size: 10px;
+  padding: 12px 0 14px 22px;
+  text-decoration: none;
+}
+
+aside li:hover a {
+  color: #2c2c2c;
+  padding-left: 34px;
+}
+
+main {
+  float: right;
+  width: 700px;
+}
+
+footer {
+  background-color: #e1e1e1;
+  height: 40px;
+}
+
+footer ul {
+  float: left;
+  margin: 12px 0 0 25px;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 95px;
+}
+
+footer a {
+  color: #2c2c2c;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .legal {
+  float: right;
+  margin: 12px 25px 0 0;
+}
+
+.wrapper {
+  background-color: #fbfbfb;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin: 0 auto;
+  padding: 50px 45px 40px;
+  width: 1060px;
+}
+
+.content {
+  margin-top: 40px;
+  width: 1014px;
+}
+
+.clearfix::after {
+  clear: both;
+  content: ' ';
+  display: block;
+}
+
+.image {
+  display: block;
+  border: 1px solid #c8c8c8;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+.description {
+  display: inline-block;
+  line-height: 14px;
+  margin: 0 0 85px 50px;
+}

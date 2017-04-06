@@ -1,0 +1,636 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: "Lucida Sans Unicode", Helvetica, sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+header {
+  margin-top: 18px;
+}
+
+.upper {
+  align-items: center;
+  display: flex;
+  margin: 0 6px;
+  position: relative;
+}
+
+.phone {
+  align-items: center;
+  display: flex;
+  margin-left: 46px;
+  margin-top: 4px;
+}
+
+.phone-icon-container {
+  margin-top: 5px;
+  border-radius: 21px;
+  width: 21px;
+  background: linear-gradient(to bottom, rgba(44, 77, 109, 1) 0%, rgba(30, 101, 132, 1) 100%);
+}
+
+.phone i {
+  padding-left: 3px;
+  color: white;
+  display: block;
+  font-size: 20px;
+  transform: rotate(18deg);
+}
+
+.phone-number {
+  color: #5e696d;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: .45px;
+  padding: 5px 0 0 4.5px;
+}
+
+.login-form {
+  background: linear-gradient(to bottom, rgba(21, 103, 135, 1) 0%, rgba(12, 51, 87, 1) 100%);
+  border-radius: 3px;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  height: 25px;
+  margin-left: 15px;
+  padding-bottom: 3px;
+  position: relative;
+}
+
+.login-form a,
+.submit {
+  font-size: 11px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.login-field::before {
+  content: url(../img/user.png);
+  display: inline-block;
+  padding: 5px 0 0 6px;
+  vertical-align: middle;
+}
+
+.login-field input {
+  border: 1px solid #82949c;
+  line-height: 16px;
+  padding-left: 3px;
+  width: 111px;
+}
+
+.submit {
+  background: none;
+  margin-left: 4px;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.registration {
+  padding-top: 5px;
+  letter-spacing: -.25px;
+}
+
+.registration::before {
+  content: '|';
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.forgot-pass {
+  padding-top: 4px;
+  color: #bfbfbf;
+  font-size: 12px;
+  margin: 0 10px 0 21px;
+  text-decoration: underline;
+}
+
+.communication {
+  border: 1px solid #c1c8cb;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  height: 20px;
+  margin: 3px 0 4px 20px;
+  width: 76px;
+}
+
+.communication a {
+  text-decoration: none;
+  vertical-align: middle;
+  display: flex;
+  padding-top: 2px;
+}
+
+.communication i {
+  color: #76848a;
+  font-size: 12px;
+  padding: 2px 3px 0 3px;
+}
+
+.communication .first {
+  margin: 0 3px 0 6px;
+}
+
+.communication .last {
+  font-size: 10px;
+  margin-top: 1px;
+  padding-left: 8px;
+}
+
+.above-the-fold {
+  height: 237px;
+  margin: 9px 46px 0 46px;
+  position: relative;
+}
+
+nav {
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(77, 86, 99) 0%, rgb(40, 44, 48) 19%, rgb(2, 2, 2) 97%, rgb(1, 1, 1) 100%);
+  border: 1px solid #2c345a;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 33px;
+  margin: 6px 45px 162px 45px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 126px;
+  vertical-align: middle;
+  display: flex;
+}
+
+nav a {
+  color: #82949c;
+  font-size: 13.65px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 16px 0 20px;
+}
+
+nav p {
+  float: right;
+}
+
+.nav-right span {
+  margin-bottom: 10px;
+}
+
+.second-child {
+  padding-left: 19px;
+}
+
+.third-child {
+  padding: 0 14px 0 14px;
+}
+
+.fourth-child {
+  padding: 0 13px 0 14px;
+}
+
+.fifth-child {
+  padding: 0 12px 0 13px;
+}
+
+nav a:hover {
+  background: linear-gradient(to bottom, rgba(37, 97, 123, 1) 0%, rgba(9, 35, 59, 1) 100%);
+  border-radius: 10px;
+  color: #fff;
+  padding-top: 3px;
+}
+
+.nav-right {
+  margin-left: 39px;
+}
+
+.nav-right span {
+  color: #82949c;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: .4px;
+  text-transform: none;
+}
+
+.nav-right a:hover {
+  background: none;
+}
+
+.nav-right i {
+  color: #25617b;
+  display: inline-block;
+  font-size: 18px;
+  transform: scale(-1, 1);
+}
+
+nav .price-amount {
+  color: #25617b;
+  font-size: 12px;
+  padding-left: 3px;
+}
+
+nav .basket {
+  margin-left: 8px;
+  padding-right: 9px;
+}
+
+.main-wrapper {
+  display: flex;
+  -height: 626px;
+  margin: 0 46px 0 44px;
+}
+
+aside {
+  color: #114165;
+  width: 182px;
+}
+
+main {
+  background: linear-gradient(to bottom, rgba(229, 231, 232, 1) 0%, rgba(147, 167, 176, 1) 100%);
+  border-radius: 3px;
+  margin: 0 10px;
+  width: 526px;
+  height:628px;
+  display: flex;
+}
+
+h1, h2 {
+  border: 1px solid #8b979c;
+  border-radius: 13px;
+  font-size: 12.73px;
+  margin: 3px 0 12px 0;
+  text-transform: uppercase;
+  width: 180px;
+}
+
+h1 {
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  height: 25px;
+  padding-left: 3px;
+}
+
+h1::before {
+  content: url(../img/paper.png);
+  display: inline-block;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+
+.right span {
+  letter-spacing: .65px;
+}
+
+.right span::before {
+  margin-right: 5px;
+}
+
+.second span::before {
+  margin-right: 5px;
+}
+
+h2 {
+  font-size: 14px;
+  margin: 0 0 0 2px;
+  width: 148px;
+  height: 25px;
+}
+
+
+h2::before {
+  content: url(../img/circle.png);
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 3px;
+  padding-right: 5px;
+
+}
+
+.products-list {
+  list-style-type: none;
+  margin: 0 0 0 35px;
+  text-transform: none;
+  width: 130px;
+}
+
+.products-list li {
+  line-height: 24px;
+}
+
+.products-list li::before {
+  content: url(../img/circle-small.png);
+  padding-right: 3px;
+}
+
+.products-list a {
+  color: #465961;
+  font-size: 12px;
+  letter-spacing: .45px;
+  text-decoration: none;
+}
+
+.products-list a:hover {
+  color: #0c3256;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.right {
+  margin: 0 0 14px 0;
+}
+
+.second {
+  margin-left: 14px;
+  width: 133px;
+}
+
+.opposite {
+  margin: 2px 0 4px 25px;
+}
+
+.opposite li {
+  font-size: 12px;
+  letter-spacing: .4px;
+  padding-bottom: 3px;
+}
+
+.opposite li::before {
+  content: none;
+  padding-right: 13px;
+}
+
+.opposite input {
+}
+
+.checkbox {
+  margin-right: 17px;
+  width: 5px;
+}
+
+label {
+  cursor: pointer;
+}
+
+.brands ul{
+  display: flex;
+  height: auto;
+  margin: 40px auto 18px auto;
+  width: 676px;
+}
+
+.brands ul li {
+  list-style-type: none;
+  margin-right: 13px;
+}
+
+.brands ul .last-brand {
+  margin-right: 0px;
+}
+
+.toyotires {
+  content: url(../img/toyotires.png);
+}
+
+.bridgestone {
+  content: url(../img/bridgestone.png);
+}
+
+.contintnal {
+  content: url(../img/continental.png);
+}
+
+.dooper {
+  content: url(../img/dopper.png);
+}
+
+.avon {
+  content: url(../img/avon.png);
+}
+
+.factory {
+  content: url(../img/factory.png);
+}
+
+.pirelli {
+  content: url(../img/pirelli.png);
+}
+
+.dunlop {
+  content: url(../img/dunlop.png);
+}
+
+footer {
+  background-color: #213a4d;
+  height: 100px;
+  margin: 0 45px;
+  text-align: center;
+  width: auto;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0 0 8px 307px;
+  padding-top: 3px;
+  width: 330px;
+}
+
+footer a {
+  color: #bec6c9;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: -.25px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #52abcb;
+}
+
+footer a:hover::after {
+  color: #bec6c9;
+}
+
+footer a::after {
+  content: 'I';
+  font-size: 16px;
+  margin: 0 12px 0 11px;
+}
+
+.last-child::after {
+  content: none;
+}
+
+footer p {
+  color: #7f4740;
+  display: block;
+  font-size: 10px;
+  margin: 0 auto;
+}
+
+ button {
+   align-content: center;
+   background: linear-gradient(to bottom, rgba(37, 97, 123, 1) 0%, rgba(9, 35, 59, 1) 100%);
+   border-radius: 10px;
+   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.15);
+   height: 25px;
+   margin: 11px 0 0 25px;
+   width: 80px;
+ }
+
+ button:hover {
+   cursor: pointer;
+ }
+
+ button span {
+   color: #e5e9ea;
+   display: block;
+   font-family: Arial, sans-serif;
+   font-size: 11px;
+   letter-spacing: .45px;
+   list-style-type: none;
+   padding-bottom: 2px;
+   text-decoration: none;
+   text-transform: uppercase;
+   margin: 0 auto;
+ }
+
+main ul {
+  align-content: center;
+  margin-left: 4px;
+  padding: 14px 0 12px 0;
+}
+
+ main ul li {
+   list-style-type: none;
+   margin: 14px 15px 20px 15px;
+   width: 140px;
+ }
+
+ main a{
+  text-align: center;
+  text-decoration: none;
+ }
+
+.pneum-title {
+  display: block;
+}
+
+.pneum-icon {
+  align-content: center;
+  border: 1px solid #bfc6c8;
+  background-color: #fff;
+  border-radius: 8px;
+  height: 128px;
+  margin: 1px 0 3px 0;
+  z-index: 1;
+}
+
+figure img {
+  padding-top: 5px;
+
+}
+
+
+
+.goodyear {
+  content: url(../img/goodyear.jpg);
+}
+
+.nokian {
+  content: url(../img/nokian.jpg);
+}
+
+.hankook {
+  content: url(../img/hankook.jpg);
+}
+
+.brand-name {
+  color: #206988;
+  display: block;
+  font-size: 14.59px;
+  line-height: 14.59px;
+}
+
+.product-type {
+  color: #1f2528;
+  display: block;
+  font-size: 12.77px;
+  letter-spacing: 0px;
+  line-height: 12.77px;
+  margin-top: 1px;
+}
+
+.pneum-price {
+  color: #114165;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: .4px;
+}
+
+.currency {
+  font-size: 12px;
+  padding-left: 3px;
+}
+
+.products-second-row {
+  padding-bottom: 12px;
+}
+
+.nokian-name {
+  letter-spacing: .5px;
+  margin-left: 6px;
+}
+
+.hankook-type {
+  margin-left: 0px;
+}
+
+.hankook-name {
+  letter-spacing: .5px;
+  margin-left: 3px;
+}
+
+.products-third-row {
+  padding-top: 17px;
+  padding-bottom: 40px;
+}
+
+.type-two {
+  margin-top: 3px;
+}
+
+.type-two li {
+  margin-bottom: -2px;
+}
+
+.bolts {
+  margin-top: -1px;
+}
+
+figure img {
+  z-index: 10;
+}
+
+@-moz-document url-prefix() {
+  .pneum-icon img {
+    display: inline-block;
+    padding-top: 6px;
+  }
+  .checkbox {
+    width: 12px;
+  }
+}

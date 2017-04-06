@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url('../img/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+}
+/* Nav bar styles*/
+nav {
+  background-image: url('../img/nav-background.jpg');
+  display: flex;
+  justify-content: flex-end;
+  min-width: 725px;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  color: #60b5ed;
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+}
+
+nav::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #4eabda;
+  color: #fff;
+}
+
+.login-contact {
+  background: #2e7ac4;
+  background: -moz-linear-gradient(top, #51b1dc 0%, #3c8fce 50%, #2e7ac4 100%);
+  background: -webkit-linear-gradient(top, #51b1dc 0%, #3c8fce 50%, #2e7ac4 100%);
+  background: linear-gradient(to bottom, #51b1dc 0%, #3c8fce 50%, #2e7ac4 100%);
+  border-bottom: 1px solid #4d9ed8;
+  border-left: 0 1px solid #4d9ed8;
+  border-right: 1px solid #4d9ed8;
+  padding: 0 11px 0 13px;
+}
+
+.login-contact a {
+  padding: 9px 3px 10px;
+  text-decoration: underline;
+}
+
+.offers a,
+.login-contact a,
+.login-contact span {
+  color: #fff;
+}
+
+.offers a {
+  border-left: 1px solid #56a2dc;
+  padding-bottom: 0;
+  padding-top: 8px;
+}
+
+.offers a::before {
+  content: url('../img/flag-icon.png');
+  display: inline-block;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+  padding-right: 10px;
+  vertical-align: -50%;
+}
+
+/* form styles */
+
+.wrapper {
+  left: 50%;
+  min-width: 360px;
+  position: absolute;
+  top:50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.title,
+.fb-btn-wrapper,
+form {
+  background-color: rgba(0, 0, 0, .63);
+}
+
+.title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.title span {
+  display: block;
+  padding: 17px 0 16px;
+}
+
+.fb-btn-wrapper {
+  padding-top: 30px;
+}
+
+.fb-btn {
+  background: #3e5694;
+  background: -moz-linear-gradient(top, #3e5694 0%, #354d89 50%, #344164 100%);
+  background: -webkit-linear-gradient(top, #3e5694 0%, #354d89 50%, #344164 100%);
+  background: linear-gradient(to bottom, #3e5694 0%, #354d89 50%, #344164 100%);
+  border-radius: 3px;
+  color: #fff;
+  display: flex;
+  margin: 0 auto;
+  width: 275px;
+}
+
+.fb-btn:hover {
+  background: #3e5694;
+  background: -moz-linear-gradient(top, #344164 0%, #354d89 50%, #3e5694 100%);
+  background: -webkit-linear-gradient(top, #344164 0%, #354d89 50%, #3e5694 100%);
+  background: linear-gradient(to bottom, #344164 0%, #354d89 50%, #3e5694 100%);
+}
+
+.fb-btn-left {
+  border-right: 1px solid #1f3d71;
+  border-top: 1px solid #7389ae;
+  border-top-left-radius: 3px;
+  width: 40px;
+}
+
+.fb-btn-right {
+  border-left: 1px solid #4c65a5;
+  border-top: 1px solid #7389ae;
+  border-top-right-radius: 3px;
+  width: 235px;
+}
+
+.fb-btn-left i {
+  font-size: 25px !important;
+  padding: 5px 12px 5px;
+}
+
+.fb-btn-right span {
+  display: block;
+  font-size: 15px;
+  padding: 8px 0 8px 30px;
+}
+
+.fb-login {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.caption {
+  display: inline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fb-login i {
+  padding-left: 20px;
+}
+
+.separator {
+  color: #999;
+  padding-top: 23px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+  display: block;
+  margin: 0 auto;
+  width:295px;
+}
+
+.line {
+  background-color: #000;
+  border-top: 1px solid #666;
+  display: inline-block;
+  height: 1px;
+  margin: 0 6px 5px;
+  width: 120px;
+}
+
+input {
+  background-color: #000;
+  border-bottom: 1px solid #494a49;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  color: #fff;
+  font-size: 14px;
+  height: 35px;
+  margin-bottom: 15px;
+  outline: none;
+  padding-left: 20px;
+  width: 275px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #ccc;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+  opacity: 1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ccc;
+  opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+input:focus {
+  background-color: #1b5288;
+  border-bottom: 1px solid #689bcc;
+  box-shadow: 0 0 7px 1px rgba(47, 123, 197, 1), inset 0 0 5px 2px rgba(29, 26, 22, .2);
+  color: #141414;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #141414;
+}
+
+input:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+  opacity: 1;
+}
+input:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ccc;
+  opacity: 1;
+}
+input:focus:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+.chbx {
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 14px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.chbx:focus {
+  box-shadow: none;
+}
+
+label {
+  color: #ccc;
+}
+
+button {
+  background: linear-gradient(to bottom, rgba(80, 174, 219, 1) 0%, rgba(58, 142, 205, 1) 50%, rgba(46, 122, 196, 1) 100%);
+  border-bottom: 1px solid #3686ca;
+  border-left: 1px solid #489cd5;
+  border-radius: 3px;
+  border-right: 1px solid #4c9dd7;
+  border-top: 1px solid #67c6e6;
+  -moz-box-shadow: 0 0 7px 1px rgba(47, 123, 197, 1);
+  -webkit-box-shadow: 0 0 7px 1px rgba(47, 123, 197, 1);
+  box-shadow: 0 0 7px 1px rgba(47, 123, 197, 1);
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  height: 35px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 150px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  box-shadow: none;
+}
+
+.hint {
+  color: #ccc;
+  display: block;
+  font-size: 11px;
+  line-height: 16px;
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-height: 700px) {
+  .wrapper {
+    margin: 30px 0;
+  }
+}
+
+/* for Firefox only */
+@-moz-document url-prefix() {
+  .login-contact a,
+  nav a {
+    padding-bottom: 9px;
+  }
+}

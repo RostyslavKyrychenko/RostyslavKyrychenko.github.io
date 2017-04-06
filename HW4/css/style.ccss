@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #138aa8; /* Old browsers */
+  background: -moz-linear-gradient(top, #138aa8 0%, #138aa8 2%, #118ba3 2%, #1688ac 2%, #108baa 3%, #138aa2 3%, #5deeff 3%, #13cee1 3%, #12cce5 3%, #11cee1 3%, #14cee3 3%, #29d3e4 5%, #31d4e7 5%, #33d5e4 6%, #4ad9e9 7%, #4edae9 7%, #80e5ef 10%, #8de7f0 10%, #cdf4f9 13%, #cdf5f7 13%, #daf8fa 14%, #dcf8fb 14%, #e4f9fc 15%, #eefcfd 17.5%, #f2fcfe 17.5%, #f8fefe 17.5%, #fbfcff 17.5%, #fafffc 17.5%, #feffff 17.5%, #fbffff 17.5%, #fffdfa 17.5%, #fffeff 17.5%, #3fc7d3 17.5%, #41c5d2 18%, #39bcce 20%, #30b3c7 23%, #23a5bd 26%, #23a5bf 26%, #1d9fb9 27%, #1d9ebb 28%, #1596b3 30%, #1091b1 32%, #0f8aac 53%, #0e82a7 63%, #0e79a3 84%, #0b76a0 88%, #0c739e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #138aa8 0%, #138aa8 2%, #118ba3 2%, #1688ac 2%, #108baa 3%, #138aa2 3%, #5deeff 3%, #13cee1 3%, #12cce5 3%, #11cee1 3%, #14cee3 3%, #29d3e4 5%, #31d4e7 5%, #33d5e4 6%, #4ad9e9 7%, #4edae9 7%, #80e5ef 10%, #8de7f0 10%, #cdf4f9 13%, #cdf5f7 13%, #daf8fa 14%, #dcf8fb 14%, #e4f9fc 15%, #eefcfd 17.5%, #f2fcfe 17.5%, #f8fefe 17.5%, #fbfcff 17.5%, #fafffc 17.5%, #feffff 17.5%, #fbffff 17.5%, #fffdfa 17.5%, #fffeff 17.5%, #3fc7d3 17.5%, #41c5d2 18%, #39bcce 20%, #30b3c7 23%, #23a5bd 26%, #23a5bf 26%, #1d9fb9 27%, #1d9ebb 28%, #1596b3 30%, #1091b1 32%, #0f8aac 53%, #0e82a7 63%, #0e79a3 84%, #0b76a0 88%, #0c739e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #138aa8 0%, #138aa8 2%, #118ba3 2%, #1688ac 2%, #108baa 3%, #138aa2 3%, #5deeff 3%, #13cee1 3%, #12cce5 3%, #11cee1 3%, #14cee3 3%, #29d3e4 5%, #31d4e7 5%, #33d5e4 6%, #4ad9e9 7%, #4edae9 7%, #80e5ef 10%, #8de7f0 10%, #cdf4f9 13%, #cdf5f7 13%, #daf8fa 14%, #dcf8fb 14%, #e4f9fc 15%, #eefcfd 17.5%, #f2fcfe 17.5%, #f8fefe 17.5%, #fbfcff 17.5%, #fafffc 17.5%, #feffff 17.5%, #fbffff 17.5%, #fffdfa 17.5%, #fffeff 17.5%, #3fc7d3 17.5%, #41c5d2 18%, #39bcce 20%, #30b3c7 23%, #23a5bd 26%, #23a5bf 26%, #1d9fb9 27%, #1d9ebb 28%, #1596b3 30%, #1091b1 32%, #0f8aac 53%, #0e82a7 63%, #0e79a3 84%, #0b76a0 88%, #0c739e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+  */
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#138aa8', endColorstr='#0c739e',GradientType=0); /* IE6-9 */
+  font-family: 'Tahoma', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+header {
+  background-color: #fff;
+  color: #128aa7;
+  padding: 14px 20px 0;
+}
+
+header::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+footer {
+  color: #fff;
+  height: 31px;
+  min-width: 1200px;
+  text-align: center;
+}
+
+footer p {
+  padding: 8px 0 11px;
+}
+
+h2 {
+  color: #424c43;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 8px 0;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background: linear-gradient(rgba(55, 55, 55, 1), rgba(48, 48, 48, 1));
+  border-bottom: 1px solid #000;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+  height: 28px;
+  position: relative;
+}
+
+nav ul {
+  margin-left: 50px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  padding: 5px 33px 7px 15px;
+  text-decoration: none;
+}
+
+nav li ul {
+  background-color: #303030;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .75);
+  margin-left: 0;
+  position: absolute;
+  width: 150px;
+}
+
+nav li li {
+  display: none;
+}
+
+nav li:hover li {
+  display: block;
+}
+
+.logo {
+  background-image: url('../img/logo.jpg');
+  background-repeat: no-repeat;
+  color: #128aa7;
+  float: left;
+  height: 164px;
+  text-decoration: none;
+  width: 283px;
+}
+
+.logo p {
+  margin: 100px 0 0 70px;
+}
+
+.contacts {
+  float: right;
+  height: 90px;
+  line-height: 17px;
+}
+
+.contacts h2 {
+  color: #128aa7;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.countries {
+  clear: right;
+  float: right;
+}
+
+.countries li {
+  background-repeat: no-repeat;
+  display: inline-block;
+  font-size: 10px;
+  text-align: center;
+  width: 60px;
+}
+
+.countries a {
+  color: #128aa7;
+}
+
+.countries i {
+  background-position: center;
+  background-repeat: no-repeat;
+  content: '';
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.india {
+  background-image: url('../img/india-icon.png');
+}
+
+.nepal {
+  background-image: url('../img/nepal-icon.png');
+}
+
+.tibet {
+  background-image: url('../img/tibet-icon.png');
+}
+
+.bhutan {
+  background-image: url('../img/bhutan-icon.png');
+}
+
+.sri-lanka {
+  background-image: url('../img/sri-lanka-icon.png');
+}
+
+.maledives {
+  background-image: url('../img/maldives-icon.png');
+}
+
+.wrapper {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin: 0 130px 0 150px;
+  min-width: 917px;
+}
+
+.above-the-fold {
+  background-image: url('../img/above-the-fold.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #128aa7;
+  border-top: 1px solid #128aa7;
+  height: 237px;
+}
+
+.main-wrapper {
+  background-color: #edeef0;
+  display: flex;
+}
+
+.main-wrapper a {
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+.dropdown-icon {
+  font-size: 7px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.left-column {
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  width: 21.8%;
+}
+
+.main-content {
+  background-color: #fff;
+  width: calc(57.4% - 4px);
+}
+
+.right-column {
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  width: 20.8%;
+}
+
+.right-column a {
+  color: #424c43;
+}
+
+.left-column ul {
+  border-bottom: 1px solid #c7cacf;
+}
+
+.left-column a {
+  color: #424c43;
+  display: block;
+}
+
+.second-section {
+  padding-bottom: 185px;
+}
