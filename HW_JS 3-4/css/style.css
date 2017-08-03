@@ -1,0 +1,21 @@
+
+h1 {
+	margin: 20px 170px 30px;
+	font-size: 30px;
+}
+
+form {
+	padding-left: 50px;
+}
+
+.checkbox {
+    padding-left: 28px;
+}
+
+label{
+      display: block;
+    }
+
+.btn-lg {
+	margin: 20px 130px;
+}

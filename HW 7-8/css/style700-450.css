@@ -1,0 +1,175 @@
+body{
+    z-index: 0
+}
+#top{
+    width: 500px;
+    
+}
+header{
+     width: 500px;    
+    height: 450px;
+}
+
+logo{
+    width: 150px;
+    margin-left: -30px;
+    
+}
+.slider{
+    width: 500px;
+    height: 250px;
+    background-size: 100% 100%;
+    margin-top: -100px;
+}
+.nav{
+    width: 200px;
+padding: 0;
+    margin: 0; 
+    z-index: 100;
+    position: absolute;
+    left: 130px;
+    top: 100px;
+    opacity: 0.9;
+    border: 1px solid #33253a;
+	border-radius: 8%;
+	overflow: hidden;
+    
+}
+.nav li{
+    width: 200px;
+    height: 40px;
+    background: #ccc;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #483b4e;
+    border: 1px solid #523e5a;
+    
+}
+.nav a{
+    display: block;
+    font-size: 20px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-align: center;
+    text-decoration-color: #edbfff;
+    
+}
+.nav li:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #edbfff;
+    background: #29202f;
+}
+/*-------------<main>------------*/
+
+ /* фіолетовий блок  з статтями*/
+.violet{
+    display: block;
+    width: 500px;
+    height: 750px;
+    clear: both;
+}
+.violet__about1{
+    display: block;
+    width: 300px;
+    height: 250px;
+    float: left;
+   margin-left: 100px;
+    
+}
+
+
+.violet__about2{
+    display: block;
+    width: 300px;
+    height: 250px;
+    float: left;
+     margin-left: 100px;    
+}
+
+.violet__about3{
+    display: block;
+    width: 300px;
+    height: 250px;
+    float: left;
+  margin-left: 100px;
+    
+}
+/*секція з блогами */
+.blogs{
+     display: block;
+    width: 100%;
+    height: 680px;
+}
+.blogs__pingbuller{
+       display: block;
+       width: 350px;
+       height: 250px;
+       margin-left: 80px;
+    
+}
+.blogs__updates{
+       display: block;
+       width: 300px;
+       height: 250px;
+       margin-left: 100px;  
+}
+.blogs__updates a{
+        margin-left: 150px;
+}
+
+.icon img{
+    width: 500px;
+    height: 100%;
+    margin-left: 10px;
+}
+/*блок з  статтями*/
+.article{
+    width: 100%;
+    height: 800px;
+}
+
+.article__pigbu{
+    display: block;
+    width: 300px;
+    height: 250px;
+     margin-left: 100px;
+}
+
+.article__recent{
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin-left: 100px;
+}
+
+.article__new{
+    display: block;
+    width: 300px;
+    height: 250px;
+   margin-left: 100px;
+}
+/*----------</main>---------*/
+footer{
+    width:500px;
+    height: 100px;
+}
+footer p{
+       margin-left: 200px;
+       margin-top:40px;
+      
+}
+.footer__nav li{
+     display: inline-block;
+    list-style: none;
+}
+ .footer__nav{
+    margin-left:10px;
+     margin-top: -15px;
+     
+}
+.footer__nav a{
+       font-size: 10px;
+    position: relative;
+    top:30px;
+}

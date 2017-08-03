@@ -1,0 +1,68 @@
+body,
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+nav {
+    position: relative;
+    height: 65px;
+    padding: 0 0 0 100px;
+    background-color: #474747;
+    font-size: 0;
+}
+
+nav > a {
+    display: inline-block;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, .1);
+    color: #dcdad8;
+    font-size: 20px;
+    line-height: 65px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+nav a.active {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.searchBar {
+    position: absolute;
+    top: 5px;
+    right: 100px;
+    width: 300px;
+}
+.searchResults {
+    width: 90%;
+    margin: 20px auto 0;
+}
+
+.imageSearchForm {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    height: 25px;
+}
+
+.imageSearchResults {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imageSearchResults > img {
+    width: 220px;
+    margin: 5px 0;
+}

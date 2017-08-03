@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>homework 11-12</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.2.1.min%20(1).js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<script type="text/html" id="profile">
+	    <div class="profile-wrapper"> 
+			<div class="person">
+				<h1><%=profile_title%></h1>
+				<img src="<%=profile_image_url%>" alt="profile_foto" height="150">
+				<p><%=profile_content%></p>
+			</div>
+			<div class="frontend">	
+				<p><%=study_title%></p>
+				<ul>
+					<% for ( var i = 0; i < study_reasons.length; i++ ) { %>
+						<li><%=study_reasons[i]%></li>
+					<% } %>
+				</ul>
+			</div>
+			<div class="contacts">
+				<ul class="no-list">
+					<li><%=phone_title%></li>
+					<li><%=phone_number%></li>
+					<li><%=vk_title%></li>
+					<li> <a href="<%=vk_url%>"><%=vk_link%></a></li>
+				</ul>
+			</div>
+			<div class="feedback">
+				<p><%=feedback_title%></p>
+				<p><%=feedback_content%></p>
+			</div>
+		</div>
+	</script>
+</body>
+</html>

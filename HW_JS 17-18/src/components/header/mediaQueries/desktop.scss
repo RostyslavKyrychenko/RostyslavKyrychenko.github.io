@@ -1,0 +1,10 @@
+@media #{$desktop} {
+    @import "../desktop";
+
+    & {
+        h1 {
+            color: $color3;
+            background: $color4;
+        }
+    }
+}

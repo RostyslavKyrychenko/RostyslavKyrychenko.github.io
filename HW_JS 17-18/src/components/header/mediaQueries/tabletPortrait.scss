@@ -1,0 +1,10 @@
+@media #{$tabletPortrait} {
+    @import "../mobile";
+
+    & {
+        h1 {
+            color: $color1;
+            background-color: $color4;
+        }
+    }
+}

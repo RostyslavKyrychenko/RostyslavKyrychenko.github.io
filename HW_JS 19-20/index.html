@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js-19-20</title>
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="dist/css/style.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.0.0/lodash.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="dist/js/script.min.js"></script>
+</head>
+<body>
+	<header class="header clearfix">
+		<div class="header__top clearfix">
+			<h1 class="logo"> 
+				<a class="logo__link" href="">
+					<img class="logo__img"src="src/img/build-logo.png" alt="logo">
+				</a>
+			</h1>
+			<ul class="social">
+				<li class="social__item"><a class="social__link" href="#"><i class="fa fa-facebook"></i></a></li>
+				<li class="social__item"><a class="social__link" href="#"><i class="fa fa-twitter"></i></a></li>
+				<li class="social__item"><a class="social__link" href="#"><i class="fa fa-rss"></i></a></li>
+				<li class="social__item"><a class="social__link" href="#"><i class="fa fa-linkedin"></i></a></li>
+				<li class="social__item"><a class="social__link" href="#"><i class="fa fa-skype"></i></a></li>
+			</ul>
+		</div>
+		<div class="header__bottom">
+			<nav class="menu">
+				<ul class="menu__list">
+					<li class="menu__item menu__item_state_current">
+						<a class="menu__link" href="#">HOME</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#">FEATURES</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#">SERVICES</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#">NEWS</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#">SHOP</a>
+					</li>
+				</ul>
+			</nav>
+			<form action="#" class="search">
+				<input type="text" class="search__input" placeholder="Search...">
+				<img src="src/img/search.png" class="search__icon" alt="search_icon">
+			</form>
+		</div>
+	</header>
+	<div class="slider-box">
+		<div class="slider-slogan"><img src="src/img/build-your-business.png" alt="build-your-business"></div>
+		<div class="slider">
+			<ul>
+				<li><img src="src/img/banner.jpg" alt=""></li>
+				<li><img src="src/img/banner.jpg" alt=""></li>
+				<li><img src="src/img/banner.jpg" alt=""></li>
+			</ul>
+		</div>
+	</div>
+	<div class="about clearfix">	
+		<div class="about__block">
+			<article class="about__settings">
+				<div class="about__settings__img"><img src="src/img/about01.png" alt="about01"></div>
+				<div class="about__settings__icon"></div>
+				<h3>Power inside</h3>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia tas sit aspernatur samomo enim ipsam voluptatem.</p>
+				<a href="#">Read More<span class="arrow-right"></span></a>
+			</article>
+		</div>
+		<div class="about__block">	
+			<article class="about__params">
+				<div class="about__params__img"><img src="src/img/about02.png" alt="about02"></div>
+				<div class="about__params__icon"></div>
+				<h3>New Technologies</h3>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+				<a href="#">Read More<span class="arrow-right"></span></a>
+			</article>
+		</div>
+		<div class="about__block">	
+			<article class="about__truck">
+				<div class="about__truck__img"><img src="src/img/about03.png" alt="about03"></div>
+				<div class="about__truck__icon"></div>
+				<h3>Fast Support</h3>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+				<a href="#">Read More<span class="arrow-right"></span></a>
+			</article>
+		</div>
+	</div>
+	<div class="our-services clearfix">
+		<div class="our-services__box">
+			<h2 class='our-services__title'>Our Services</h2>
+			<article class="our-services__content">
+		   		<figure class="our-services__content__block">
+		   			<a href="#">
+		   				<img src="src/img/worker.jpg" alt="worker">
+		   				<img class="hover-img" src="src/img/foto_hover-effect.png" alt="hover">
+		    			<figcaption>Schedule Services</figcaption>
+		    		</a>
+		   		</figure>
+		   		<figure class="our-services__content__block">
+					<a href="#">
+		   				<img src="src/img/truck.jpg" alt="truck">
+		   				<img class="hover-img" src="src/img/foto_hover-effect.png" alt="hover">
+		    			<figcaption>Preventive Maintence</figcaption>
+		    		</a>
+	   			</figure>
+	   			<figure class="our-services__content__block">
+					<a href="#">
+		   				<img src="src/img/tubes.jpg" alt="tubes">
+		   				<img class="hover-img" src="src/img/foto_hover-effect.png" alt="hover">
+		    			<figcaption>Tire&Wheel Services</figcaption>
+		    		</a>
+	   			</figure>
+	   			<figure class="our-services__content__block">
+					<a href="#">
+		   				<img src="src/img/tubes2.jpg" alt="tubes2">
+		   				<img class="hover-img" src="src/img/foto_hover-effect.png" alt="hover">
+		    			<figcaption>Repair Services</figcaption>
+		    		</a>
+	   			</figure>
+			</article>
+		</div>
+   	</div>
+   	<div class="news-banners clearfix">
+   		<div class="news-banners__box">
+   			<div class="news">
+   				<h2 class="news__title">Latest News</h2>
+   				<article class="news__article">
+   					<img class="news__article__date" src="src/img/news_date1.png" alt="news_date1">
+   					<img class="news__article__img" src="src/img/news_img1.jpg" alt="news_img1">
+   					<h4><a href="#">Advanced Machinery Helps Improve Quality</a></h4>
+   					<h5>by <span>cmsmasters</span> Comments (<span>6</span>)</h5>
+   					<p>Cum sociis natoque penatibus et magnis dis parturient ontesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+   				</article>
+   				<article class="news__article">
+   					<img class="news__article__date" src="src/img/news_date2.png" alt="news_date2">
+   					<img class="news__article__img" src="src/img/news_img2.jpg" alt="news_img2">
+   					<h4><a href="#">Powerful Techniques for Advanced Service</a></h4>
+   					<h5>by <span>cmsmasters</span> Comments (<span>3</span>)</h5>
+   					<p>Cum sociis natoque penatibus et magnis dis parturient ontesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+   				</article>
+   			</div>
+   			<div class="banners">
+   				<h2 class='banners__title'>Banners Place</h2>
+   				<div class="accordion">
+    				<div class="accordion-section">
+        				<h4><a class="accordion-section-title" href="#accordion-1"><span>&nbsp</span>ACCORDION PANEL 1</a></h4>
+        				<div id="accordion-1" class="accordion-section-content">
+        					<p>Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur </p>
+        				</div>
+   					</div>
+   					<div class="accordion-section">
+        				<h4><a class="accordion-section-title" href="#accordion-2"><span>&nbsp</span>ACCORDION PANEL 2</a></h4>
+        				<div id="accordion-2" class="accordion-section-content">
+        					<p>Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur </p>
+        				</div>
+   					</div>
+   					<div class="accordion-section">
+        				<h4><a class="accordion-section-title" href="#accordion-3"><span>&nbsp</span>ACCORDION PANEL 3</a></h4>
+        				<div id="accordion-3" class="accordion-section-content">
+        					<p>Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur </p>
+        				</div>
+   					</div>
+   					<div class="accordion-section">
+        				<h4><a class="accordion-section-title" href="#accordion-4"><span>&nbsp</span>ACCORDION PANEL 4</a></h4>
+        				<div id="accordion-4" class="accordion-section-content">
+        					<p>Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur </p>
+        				</div>
+   					</div>
+				</div>
+   			</div>
+   		</div>
+   	</div>
+   	<div class="logos clearfix">	
+		<div class="logos__img">
+			<a href="#"><img src="src/img/company-logo1.png" alt="logo1"></a>
+		</div>
+		<div class="logos__img">
+			<a href="#"><img src="src/img/company-logo2.png" alt="logo2"></a>
+		</div>
+		<div class="logos__img">
+			<a href="#"><img src="src/img/company-logo3.png" alt="logo3"></a>
+		</div>
+		<div class="logos__img">
+			<a href="#"><img src="src/img/company-logo4.png" alt="logo4"></a>
+		</div>
+		<div class="logos__img">
+			<a href="#"><img src="src/img/company-logo5.png" alt="logo5"></a>
+		</div>
+		<div class="logos__img">
+			<a href="#"><img src="src/img/company-logo6.png" alt="logo6"></a>
+		</div>
+	</div>
+	<div class="site-info clearfix">
+		<div class="site-info__box">
+			<div class="infogroup">
+				<h4 class="infogroup__title">SOCIALS</h4>
+				<ul class="infogroup__list">
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Facebook</a></li>
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Flickr</a></li>
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Twitter</a></li>
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Vimeo</a></li>
+				</ul>
+			</div>
+			<div class="infogroup">
+				<h4 class="infogroup__title">LINKS</h4>
+				<ul class="infogroup__list">
+					<li class="infogroup__item"><a href="#" class="infogroup__link">How to Write a Blog</a></li>
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Create a Blog in 4 Steps</a></li>
+					<li class="infogroup__item"><a href="#" class="infogroup__link">15 Tips to Increase Traffic</a></li>
+					<li class="infogroup__item"><a href="#" class="infogroup__link">20 Blog Post Ideas</a></li>
+				</ul>
+			</div>
+			<div class="infogroup">
+				<h4 class="infogroup__title">BLOGROLL</h4>
+				<ul class="infogroup__list">
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Blogs Blog</a></li>
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Roll Up Roll Up</a></li>
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Blog Freec</a></li>
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Wordpress Blog</a></li>
+				</ul>
+			</div>
+			<div class="infogroup">
+				<h4 class="infogroup__title">ABOUT US</h4>
+				<ul class="infogroup__list">
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Agriculture</a></li>
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Harvest</a></li>
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Company news</a></li>
+					<li class="infogroup__item"><a href="#" class="infogroup__link">Investor relations</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<footer class="footer clearfix">
+		<div class="footer__box">
+			<ul class="contacts">
+				<li class="contacts__address"><span></span>BuildHomeLtd.  Street Name 123   23 45 Cityname</li>
+				<li class="contacts__phone"><span></span>+123 900 123 456</li>
+				<li class="contacts__email"><span></span>info@buildhome.web</li>
+			</ul>
+			<div class="copyright">© 2014 Build Home</div>
+		</div>
+	</footer>
+</body>
+</html>

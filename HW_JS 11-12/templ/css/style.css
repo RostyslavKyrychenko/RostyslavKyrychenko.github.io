@@ -1,0 +1,57 @@
+
+/* -------------- PROFILE --------------- */
+
+.profile-wrapper {
+    background: #fff;
+    width: 480px;
+    margin:0 auto;
+    margin-top: 50px;
+    padding: 30px 50px ;
+    box-shadow: 0 0 2px #555;
+}
+
+.person, .frontend, .contacts {
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    font: 700 19px Tahoma, Arial, sans-serif;
+    line-height: 24px;
+}
+
+.person img {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-wrapper p, .profile-wrapper ul {
+    font-family: Calibri, Arial, sans-serif;
+    font-weight: normal; 
+    line-height: 24px;
+    text-align: left;
+    text-indent: 15px;
+    font-size: 15px;
+}   
+
+.profile-wrapper ul li {
+    text-indent: 0;
+}
+
+.no-list {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.no-list li:nth-child(3){
+    padding-top: 16px;
+}
+
+.feedback {
+    margin: 16px 0;
+}
+
+.feedback p {
+    margin: 0;
+}

@@ -1,0 +1,110 @@
+#top{
+    width: 1000px;
+}
+header{
+  background: url(img/bg5.png);  
+    background-size: 100% 100%;
+     width: 1000px;    
+    height: 550px;
+}
+.nav{
+    width: 550px;
+    margin-left: 500px;
+    margin-top: -155px;
+}
+
+.nav a{
+    display: inline-block;
+   margin: 5px;
+     font-size: 18px;
+}
+
+logo{
+    width: 70px;
+    margin-left: 50px;
+}
+.slider{
+    width: 100%;
+    height: 350px;
+    background-size: 100% 100%;
+    
+}
+/*-------------<main>------------*/
+/* фіолетовий блок  з статтями*/
+.violet{
+    clear: both;
+    width: 1100px;
+}
+.violet__about1{
+    width: 250px;
+    margin-right: 30px;
+    margin-left: 150px; 
+}
+
+
+.violet__about2{
+    width: 250px;
+    margin-right: 30px;   
+}
+
+.violet__about3{
+    width: 250px;
+    margin-right: 30px;
+    
+}
+/*секція з блогами */
+.blogs{
+     height: 380px;
+    
+}
+.blogs__pingbuller{
+       width: 450px;
+       height: 350px;
+       margin-left: 100px;
+}
+.blogs__updates{
+       width: 400px;
+       height: 480px;
+       margin-left: 20px;
+       position: absolute;
+}
+.blogs__updates a{
+      margin-left: 250px;
+       margin-top: 200px;
+}
+.blogs__updates img{
+     margin-right: 10px;
+    margin-top: -10px;
+}
+
+.icon img{
+    margin-left: 150px;
+}
+
+/*блок з  статтями*/
+.article__pigbu{
+    width: 250px;
+    margin-right: 30px;
+    margin-left: 150px;
+}
+
+.article__recent{
+    width: 250px;
+    margin-right: 30px;
+}
+
+.article__new{
+    width: 250px;
+    margin-right: 30px;
+}
+/*----------</main>---------*/
+.footer__nav{
+    margin-left: 200px;
+    
+    
+}
+
+footer p{
+       margin-left: 900px;
+       margin-top: -10px;
+}

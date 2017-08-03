@@ -1,0 +1,11 @@
+@media #{$desktopWide} {
+    @import "../desktop";
+
+    & {
+        h1 {
+            color: $color4;
+            background: $color1;
+        }
+
+    }
+}

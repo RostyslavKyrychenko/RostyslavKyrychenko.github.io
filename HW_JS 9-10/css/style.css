@@ -1,0 +1,261 @@
+
+.wrapper {
+	background-color: #66FFCC;
+	padding: 10px;
+}
+
+/*------------- NAVIGATION --------------*/
+
+.navigation {
+	background-color: #FF3300;
+	padding: 10px 0;
+	margin: 60px 0;
+}
+
+.menu {
+	max-width: 630px;
+	margin: 0 auto;
+	padding: 0;
+    text-align: center;
+}
+
+.menu li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 10px;
+	text-align: center;
+	z-index: 999;
+}
+
+.menu a {
+	display: block;
+	padding: 0 15px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 2.5em;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li:hover > a {
+	color: #000;
+	color:  #001a15;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown i {
+	position: relative;
+	color: #fff;
+	bottom: 4px;
+    font-size: 13px;
+}
+
+.dropright i {
+    bottom: 0px;
+    left: 104px;
+}
+
+.submenu {
+	display: none;
+	background-color: #e14b4b;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 200px;
+    padding: 0 7px;
+}
+
+.subright {
+    left: 200px;
+    top: 0px;
+}
+
+.submenu li {
+	display: block;
+	border-bottom: 1px solid #c83232;
+	text-align: left;
+}
+
+.submenu li:last-child {
+	border-bottom: none;
+}
+
+.submenu a {
+	display: block;
+	padding: 0 10px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #fff;
+	text-decoration: none;
+}
+
+/*------------- CAROUSEL ---------*/
+
+h1 {
+	margin: 0 auto;
+	width: 620px;
+	text-align: center;	
+	background-color: #00B699;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 40px;
+	line-height: 2em;
+	font-style: italic;
+	color: #fff;
+	border: 3px solid #fff;
+	border-radius: 6px;
+	box-sizing: border-box;	
+}
+
+h1:hover {
+	background-color: #FF3300;
+}
+
+.jcarousel img {
+	width: 600px; 
+	height: 400px;
+}
+
+/* ------ cuSel ------- */
+
+.cusel-form label {
+    vertical-align: super;
+    color: #00aaaa;
+    font-family: Tahoma, Arial sans-serif;
+}
+
+.cusel-form {
+	width: 630px;
+	margin: 0 auto;
+    padding-left: 31px;
+}
+
+.cusel-form > div {
+    margin: 20px 0;
+}
+
+.cusel-form p {
+	margin: 0 0 50px 173px;
+}
+
+input[type="button"] {
+	background-color: #fff;
+    line-height: 21px;
+    color: #00B699;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+input[type="button"]:hover {
+	background-color: #00B699;
+    color: #fff;
+}
+
+input[type="submit"], input[type="reset"] {
+	background-color: #00B699;
+    line-height: 28px;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-weight: 800;
+    padding: 3px 15px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+	background-color: #FF3300;
+}
+/* ------ jform ------- */
+
+.jform fieldset {
+	width: 282px;
+	border: none;
+}
+
+.jform fieldset > div {
+    padding: 10px 0 10px 15px;
+}
+
+.jform label {
+    vertical-align: top;
+    color: #fff;
+    font-family: Tahoma, Arial sans-serif;
+}
+
+.niceCheck {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../img/checkbox.png);
+	overflow: hidden;
+}
+.niceChecked {
+	background-position: 0 -17px;
+}
+.niceCheck input {
+	margin-left: -100px;  можно задать побольше чтобы наверняка скрыть поле 
+}
+.niceCheckDisabled {
+	background-image: url(../img/checkbox-disabled.png);
+}
+
+/* ------ css-form ------- */
+
+.css-form fieldset {
+	width: 282px;
+	border: none;
+}
+.css-form fieldset > div {
+    padding: 10px 0 10px 15px;
+}
+.css-form label {
+    vertical-align: top;
+    color: #fff;
+    font-family: Tahoma, Arial sans-serif;
+}
+.css-form input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.css-form label {
+	cursor: pointer;
+}
+.css-form label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+.css-form input[type=checkbox]:checked + label:after {
+background-position: 0 -17px;
+}
+.check label:after {
+background-position: 0 -17px;
+}
+.check input[type=checkbox]:checked + label:after {
+background-position: 0 0px;
+}
+.disable label:after {
+background: url(../img/checkbox-disabled.png);
+background-position: 0 -17px;
+}
+
+.checkbox-forms {
+	width: 630px;
+	margin: 0 auto;
+}
+
+.css-form, .jform {
+	display: inline-block;
+	background-color: #00B699;
+}

@@ -1,0 +1,9 @@
+@media #{$tabletLandscape} {
+    @import "../mobile";
+
+    & {
+        color: $color1;
+        background-color: $color4;
+
+    }
+}

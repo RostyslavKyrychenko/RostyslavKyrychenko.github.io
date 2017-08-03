@@ -1,0 +1,23 @@
+img {
+	border: none;
+}
+.inform__block {
+	width: 33.3%;
+}
+.sliders {
+	background-image: url(../img/bg_sliders.png);
+}
+.about {
+	background-color: #694876
+}
+.drop_menu:hover {
+	background-image: url(../img/bg_drop-menu2.png);
+}
+.logos__img {
+	width: 70px;
+} 
+
+/*.header__menu__item:hover{
+	background-image: url(../img/menu_hover.png);
+}*/
+ 

@@ -1,0 +1,978 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+a, p, h1, h2 {
+	font-family: "League Gothic", Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../img/bg_body.jpg);
+	height: 100%;
+}
+.wrapper {
+	width: 960px;
+	margin:0 auto;
+	box-sizing: border-box;
+}
+
+/* ------------------- HEADER ---------------------- */
+
+.header {
+	padding-top: 65px;
+}
+
+ .logo {
+ 	float:left;
+ }
+
+.header__menu {
+	float: right;
+	padding-top: 5px;
+}
+
+.header__menu__item {
+	list-style: none;
+	float: left;
+	margin-left: 50px;
+}
+
+.header__menu__link {
+	font-family: "League Gothic", Arial, sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	color: white;
+}
+
+.header__menu__item:hover {
+	border-bottom: 2px solid #edbfff;
+}
+
+/* ------------------ sliders ------------------------ */
+
+.sliders {
+	background-color: rgba(0, 0, 0, 0.2);
+	margin: 155px 0;
+	position: relative;
+}
+
+.sliders__left {
+	float: left;
+	position: absolute;
+    top: 170px;
+    left: -148px;
+}
+
+.sliders__right {
+	float: right;
+	position: absolute;
+    top: 170px;
+    right: -148px;
+}
+
+.iphone {
+	position: relative;
+}
+
+.iphone__text {
+	float: left;
+	width: 55%;
+	padding: 82px 0;
+}
+
+.iphone__text h2 {
+    color: #fefefe;
+    font-family: "League Gothic", Arial, sans-serif;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 54px;
+}
+
+.iphone__text h3 {
+	font-family: "League Gothic", Arial, sans-serif;
+	font-weight: normal;
+	font-size: 32px;
+	color: #edbfff;
+}
+
+.iphone__text p{
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	color: #fff;
+	line-height: 23px;
+}
+
+.iphone__img {
+	float: right; 
+	position: absolute;
+	right: 42px;
+    top: -27px;
+}
+
+.navigation--black {
+	clear: both;
+    position: absolute;
+    top: 439px;
+    right: 16%;
+}
+
+/* ------------------aboutCompany ----------------------- */
+
+.about {
+padding:70px 0px;
+background: rgba(116,80,131,1);
+background: -moz-linear-gradient(top, rgba(116,80,131,1) 0%, rgba(51,37,58,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(116,80,131,1)), color-stop(100%, rgba(51,37,58,1)));
+background: -webkit-linear-gradient(top, rgba(116,80,131,1) 0%, rgba(51,37,58,1) 100%);
+background: -o-linear-gradient(top, rgba(116,80,131,1) 0%, rgba(51,37,58,1) 100%);
+background: -ms-linear-gradient(top, rgba(116,80,131,1) 0%, rgba(51,37,58,1) 100%);
+background: linear-gradient(to bottom, rgba(116,80,131,1) 0%, rgba(51,37,58,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#33253a', GradientType=0 );
+}
+
+.about__company {
+	width: 33%;
+	float:left;
+}
+
+.about__settings,
+.about__chat,
+.about__music {
+	position: relative;
+	padding-left: 60px;
+	max-width: 226px;
+}
+
+.about__settings__icon {
+	width: 30px;
+	height: 32px;
+	background: url(../img/icons_about.png) 0 0 no-repeat;
+	position: absolute;
+	left: 5px;
+    top: 10px;	
+}
+
+.about__chat__icon {
+	width: 30px;
+	height: 32px;
+	background: url(../img/icons_about.png) -30px 0 no-repeat;
+	position: absolute;
+	left: 5px;
+    top: 10px;	
+}
+
+.about__music__icon {
+	width: 30px;
+	height: 32px;
+	background: url(../img/icons_about.png) -60px 0 no-repeat;
+	position: absolute;
+	left: 5px;
+    top: 10px;	
+}
+
+.about__company h2{
+    font-family: "League Gothic", Arial, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+ 	text-transform: uppercase;
+ 	color: #fff;
+}
+
+.about__company p{
+    font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	max-height: 122px;
+    overflow: hidden;
+}
+
+.about__company a{
+    font-family: "League Gothic", Arial, sans-serif;
+	font-size: 18px;
+	line-height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    float: right;
+}
+
+.about__company a:hover{
+	 font-family: "Times New Roman", Arial, sans-serif;
+	 text-shadow: 0 0 15px white;
+	 transition: 0.6s;
+}
+
+/* --------------------- news ------------------------- */
+
+.news {
+	background-color: #f9f9f9;
+	padding: 90px 0 70px;
+}
+
+.dialog, 
+.updates {
+	width: 47%;
+	float: left;
+}
+
+.dialog {
+	position: relative;
+}
+
+.dialog__foto {
+	float: left;
+	position: absolute;
+	top: 19px;
+}
+
+.dialog__text {
+	background-color: #fff;
+	padding: 30px 43px;
+    margin-left: 22px;
+}
+
+.dialog__text img {
+	position: absolute;
+	bottom: 21px;
+    right: 38px;
+}
+
+.dialog__text h2 {
+	font-family: "League Gothic", Arial, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 46px;
+ 	text-transform: uppercase;
+ 	color: #454545;
+}
+
+.dialog__text span {
+	color: #edbfff;
+}
+
+.dialog__text p {
+	font-family: "Times New Roman", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+ 	color: #454545;
+}
+
+.updates {
+	padding: 30px 0 0 55px;
+} 
+.updates h2 {
+	font-family: "League Gothic", Arial, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 46px;
+ 	text-transform: uppercase;
+ 	color: #454545;
+}
+
+.updates__link {
+    font-family: "League Gothic", Arial, sans-serif;
+	font-size: 18px;
+	line-height: 40px;
+    text-transform: uppercase;
+    color: #454545;
+    float: right;
+    padding-left: 20px;
+}
+
+.updates__link:hover{
+	 font-family: "Times New Roman", Arial, sans-serif;
+	 text-shadow: 0 0 15px #edbfff;
+	 transition: 0.6s;
+}
+
+.updates__group {
+	margin: 13px 0;
+}
+
+.updates__group img {
+	float: left;
+    padding-right: 13px;
+}
+
+.updates__group a {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 24px;
+ 	color: #454545;	
+}
+
+.updates__group p {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+ 	color: #454545;
+}
+
+.navigation {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.navigation__item {
+	list-style: none;
+	display: inline-block;
+}
+
+/* ------------------- logos ---------------------------*/
+
+.logos {
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	background-color: #f9f9f9;
+}
+
+.logos__images {
+	padding: 33px 60px;
+	float: left;
+}
+
+.logos__img {
+	float: left;
+	padding: 0 30px;
+}
+
+/* --------------------- inform ---------------------- */
+
+.inform {
+	background-color: #ececec;
+}
+
+.inform__block {
+	float:left;
+	width: 35%;
+	margin: 90px 0;
+}
+
+.inform__block:nth-child(3) {
+	width: 29%;
+	float: right;
+}
+
+.inform__company,
+.inform__comments,
+.inform__categories {
+	max-height: 205px;
+	max-width: 280px;
+	position: relative;
+	overflow: hidden;
+}
+
+.inform__block a {
+	font-family: "League Gothic", Arial, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+ 	text-transform: uppercase;
+ 	color: #454545;
+}
+
+ .inform__company a {
+ 	font-size: 48px;
+ 	line-height: 50px;
+ }
+
+.inform__company span {
+ 	color: #b9b9b9;
+ }
+
+.inform__block h3 {
+	font-family: Georgia, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 34px;
+	font-style: italic;
+ 	color: #c5c5c5;
+}
+
+.inform__block p {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+ 	color: #787878;
+}
+
+/* ---------------------- FOOTER ------------------------- */
+
+.footer {
+	background-image: url(../img/footer_bg.jpg);
+	padding: 35px 0;
+}
+
+.footer__menu {
+	float: left;
+	padding-top: 5px;
+}
+
+.footer__menu__item {
+	margin-right: 40px;
+	list-style: none;
+	float: left;
+}
+
+.footer__menu__link {
+	font-family: "League Gothic", Arial, sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	text-decoration: none;
+	color: white;
+}
+.footer__menu__item:hover {
+	border-bottom: 2px solid #edbfff;
+}
+
+.copyright {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: normal;
+	float: right;
+	line-height: 36px;
+	font-size: 12px;
+	color: white;
+}
+
+.copyright span {
+	font-weight: bold;
+}
+
+/* ===================== DEVICES ===================== */
+
+@media only screen and (max-width: 1278px) {
+	.sliders__left, .sliders__right {
+	    display: none;
+	}
+}
+
+
+@media only screen and (max-width: 959px) {
+	.wrapper {
+		width: 768px;
+		padding: 0 20px;
+	}
+	.header__menu {
+		float: left;
+    	padding-top: 16px;
+    	width: 100%;
+   		box-sizing: border-box;
+	}
+	.header__menu__item {
+		margin: 0 50px 0 0;
+	}
+	.sliders {
+		margin: 70px 0 155px;
+	}
+	.sliders__left {
+    	display: block;
+    	position: relative;
+    	top: 170px;
+    	left: -20px;
+    }
+    .sliders__right {
+    	display: block;
+    	position: relative;
+    	top: 170px;
+    	right: -20px;
+    }
+    .iphone__text {
+   		width: 37%;
+    	padding: 105px 0 115px;
+	}
+	.iphone__text h2 {
+    	font-size: 48px;
+	}
+	.iphone__text h3 {
+    	font-size: 24px;
+    	max-height: 34px;
+    	overflow: hidden;
+	}
+	.iphone__text p {
+    	font-size: 16px;
+    	line-height: 24px;
+    	max-height: 92px;
+    	overflow: hidden;
+	}
+	.iphone__img {
+		position: absolute;
+		right: 34px ;
+	}
+	.about__company {
+		width: 33.3%;
+	}
+	.about__company:nth-child(3) {
+		width: 30%;
+		float: right;
+	}
+	.about__company h2 {
+    	font-size: 24px;
+	}
+	.about__company p {
+    	max-height: 144px;
+	}
+	.about__settings, 
+	.about__chat, 
+	.about__music {
+    	max-width: 160px;
+	}
+	.dialog {
+		width: 44%;
+	}
+	.dialog__text h2 {
+    	font-size: 24px;
+        line-height: 24px;
+    	padding-bottom: 6px;
+	}
+	.dialog__text p {
+    	font-family: "Open Sans", Arial, sans-serif;
+   		overflow: hidden;
+    	max-height: 144px;
+	}
+	.dialog__text span {
+	    display: block;
+	}
+    .updates {
+    	float: right;
+    	width: 44%;
+    }
+    .updates h2 {
+    	line-height: 30px;
+    }
+    .updates__group {
+    	margin: 13px 0;
+    	overflow: hidden;
+    	max-width: 336px;
+    	max-height: 52px;
+    }
+    .logos__images {
+    	padding: 33px 0;
+	}
+    .logos__img {
+	    padding: 0 50px 0 0;
+	}
+	.logos__img:nth-child(6) {
+		padding: 0;
+	}
+	.inform__company,
+	.inform__comments,
+	.inform__categories {
+    	max-width: 216px;
+    }
+    .footer__menu {
+    	width: 100%;
+	}
+    .copyright {
+    	padding-top: 10px;
+    }
+} 
+
+@media only screen and (max-width: 767px) {
+	.wrapper {
+		width: 480px;
+		padding: 0 20px;
+	}
+	.logo {
+    	width: 100%;
+    	text-align: center;
+    	padding-bottom: 24px;
+	}
+	.header__menu {
+    	padding-top: 16px;
+    	width: 100%;
+    	text-align: center;
+    	margin: 0 auto;
+    	position: relative;
+	}
+	.header__menu__item {
+		margin-right: 0;
+		width: 100%;
+	}
+	.header__menu__item:not(:first-child){
+		display: none;
+		border-top: 1px solid #523f5a;
+		border-bottom: 1px solid #37293e;
+	}
+	.drop_menu {
+		padding: 11px 0 0 0;
+    	position: absolute;
+    	z-index: 9999;
+    	left: 96px;
+    	top: -22px;
+    	width: 246px;
+	}
+	.drop_menu:hover .header__menu__item {
+		display: block;
+		padding-bottom: 3px;
+	}
+	.drop_menu:hover{
+		background: rgba(54, 41, 62, 0.7);
+		border: 1px solid #051116;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+		border-radius: 5px;
+	}
+	.drop_menu:hover .header__menu__item:not(:first-child){
+	    padding: 4px 0;
+	}
+	.header__menu__item:not(:first-child):hover{
+		background: rgba(49, 40, 54, 0.9);
+		border-bottom: 2px solid #edbfff;
+	}
+	.header__menu__item_state_current:hover {
+		border-bottom: none;
+	}
+	.header__menu__item_state_current a{
+		display: inline-block;
+		width: 47px;
+	    height: 31px;
+		border-bottom: 2px solid #edbfff;
+	}
+	.sliders {
+		margin: 22px 0 100px;
+		z-index: 1;
+	}
+	.sliders__left {
+    	position: relative;
+    	top: 100px;
+    	left: -20px;
+    }
+    .sliders__right {
+    	position: relative;
+    	top: 100px;
+    	right: -20px;
+    }
+    .iphone__text {
+   		width: 44%;
+    	padding: 88px 0 98px;
+	}
+	.iphone__text h2 {
+    	font-size: 36px;
+    	line-height: 36px;
+	}
+	.iphone__text h3 {
+    	font-size: 18px;
+    	max-height: 23px;
+    	overflow: hidden;
+	}
+	.iphone__text p {
+    	height: 0px;
+    	overflow: hidden;
+	}
+	.iphone__img {
+    	width: 40%;
+    	position: absolute;
+    	right: 30px;
+    	top: -9px;
+	}
+	.iphone__img img {
+		height: 260px;
+	}
+	.navigation--black {
+		position: absolute;
+    	top: 250px;
+    	right: 32%;
+	}
+	.about__company {
+		width: 100%;
+		padding: 5px 0;
+	}
+	.about__company:nth-child(3) {
+		width: 100%;
+	}
+	.about__company h2 {
+    	font-size: 24px;
+	}
+	.about__company p {
+    	max-height: 72px;
+    	overflow: hidden;
+	}
+	.about__settings, 
+	.about__chat, 
+	.about__music {
+    	max-width: 382px;
+	}
+	.dialog {
+		width: 100%;
+	}
+	.dialog__text h2 {
+    	font-size: 24px;
+        line-height: 24px;
+    	padding-bottom: 6px;
+	}
+	.dialog__text p {
+    	font-family: "Open Sans", Arial, sans-serif;
+   		overflow: hidden;
+    	max-height: 168px;
+    	max-width: 356px;
+	}
+	.dialog__text span {
+	    display: inline;
+	}
+    .updates {
+    	float: left;
+    	width: 70%;
+    	padding: 30px 0 0 65px;
+    }
+    .updates h2 {
+    	line-height: 30px;
+    }
+    .updates__group {
+    	margin: 13px 0;
+    	overflow: hidden;
+    	max-width: 336px;
+    	max-height: 52px;
+    }
+    .logos__images {
+    	padding: 33px 0px 33px 35px;
+    	width: 88%;
+	}
+    .logos__img {
+	    padding: 8px 26px;
+	}
+	.inform {
+		padding: 20px 0 80px;
+	}
+	.inform__block {
+		margin:50px 0 0;
+		width:100%;
+	}
+	.inform__block:nth-child(3) {
+		width:100%;
+	}
+	.inform__company,
+	.inform__comments,
+	.inform__categories {
+    	max-width: 446px;
+    }
+    .inform__block a {
+    	font-size: 24px;
+	}
+	.inform__block p {
+		overflow: hidden;
+    	max-height: 96px;
+	}
+	.footer__menu__item {
+    	margin-right: 21px;
+	}
+	.footer__menu__link {
+    	font-size: 20px;
+	}
+	.copyright {
+		width:100%;
+		text-align: center;
+	}
+} 
+
+@media only screen and (max-width: 479px) {
+	.wrapper {
+		width: 320px;
+		padding: 0 20px;
+	}
+	.logo {
+    	width: 100%;
+    	text-align: center;
+	}
+	.header__menu {
+    	padding-top: 16px;
+    	width: 100%;
+    	text-align: center;
+    	margin: 0 auto;
+    	position: relative;
+	}
+	.header__menu__item {
+		margin-right: 0;
+		width: 100%;
+	}
+	.header__menu__item:not(:first-child){
+		display: none;
+		border-top: 1px solid #523f5a;
+		border-bottom: 1px solid #37293e;
+	}
+	.drop_menu {
+		padding: 11px 0 0 0;
+    	position: absolute;
+    	z-index: 9999;
+    	left: 34px;
+    	top: -22px;
+    	width: 215px;
+	}
+	.drop_menu:hover .header__menu__item {
+		display: block;
+		padding-bottom: 3px;
+	}
+
+	.drop_menu:hover{
+		background: rgba(54, 41, 62, 0.7);
+		border: 1px solid #051116;
+		-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+	}
+	.drop_menu:hover .header__menu__item:not(:first-child){
+	    padding: 4px 0;
+	}
+	.header__menu__item:not(:first-child):hover{
+		background: rgba(49, 40, 54, 0.9);
+		border-bottom: 2px solid #edbfff;
+	}
+	
+	.header__menu__item_state_current:hover {
+		border-bottom: 1px solid #37293e;
+	}
+	.header__menu__item_state_current a{
+		display: inline-block;
+		width: 47px;
+	    height: 31px;
+		border-bottom: 2px solid #edbfff;
+	}
+	.sliders {
+		margin: 22px 0 100px;
+		background-color: rgba(0, 0, 0, 0);
+	}
+	.sliders__left {
+    	position: relative;
+    	top: 100px;
+    	left: -20px;
+    }
+    .sliders__right {
+    	position: relative;
+    	top: 100px;
+    	right: -20px;
+    }
+    .iphone__text {
+   		width: 100%;
+    	padding: 44px 0;
+    	text-align: center;
+	}
+	.iphone__text h2 {
+    	font-size: 36px;
+    	line-height: 36px;
+	}
+	.iphone__text h3 {
+    	font-size: 18px;
+    	max-height: 23px;
+    	overflow: hidden;
+	}
+	.iphone__text p {
+    	height: 0px;
+    	overflow: hidden;
+	}
+	.iphone__img {
+		display: none;
+	}
+	.navigation--black {
+		position: absolute;
+    	top: 210px;
+    	right: 36%;
+	}
+	.about__company {
+		width: 100%;
+		padding: 5px 0;
+	}
+	.about__company:nth-child(3) {
+		width: 100%;
+	}
+	.about__company h2 {
+    	font-size: 24px;
+	}
+	.about__company p {
+    	max-height: 72px;
+    	overflow: hidden;
+	}
+	.about__settings, 
+	.about__chat, 
+	.about__music {
+    	max-width: 225px;
+	}
+	.dialog {
+		width: 100%;
+	}
+	.dialog__text h2 {
+    	font-size: 24px;
+        line-height: 24px;
+    	padding-bottom: 6px;
+	}
+	.dialog__text p {
+    	font-family: "Open Sans", Arial, sans-serif;
+   		overflow: hidden;
+    	max-height: 168px;
+    	max-width: 356px;
+	}
+	.dialog__text span {
+	    display: inline;
+	}
+    .updates {
+    	float: left;
+    	width: 100%;
+    	padding: 30px 0;
+    }
+    .updates h2 {
+    	line-height: 30px;
+    }
+    .updates__group {
+    	margin: 13px 0;
+    	overflow: hidden;
+    	max-width: 290px;
+    	max-height: 52px;
+    }
+    .updates__group a {
+    	max-height: 24px;
+    	display: block;
+    	overflow: hidden;
+	}
+	.updates__group img {
+    	padding-right: 10px;
+	}
+    .logos__images {
+    	padding: 33px 0px 33px 15px;
+    	width: 88%;
+	}
+    .logos__img {
+	    padding: 8px 25px;
+	}
+	.inform {
+		display: none;
+	}
+	.footer__menu {
+    	display: none;
+	}
+} 
