@@ -1,0 +1,495 @@
+/* ------------HEADER ------------------- */
+	.header__top {
+	    padding: 36px 11px 136px;
+	}
+	
+	.header__inner {
+		width: 960px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.logo {
+		padding: 1px 0px;
+		float: left;
+	}
+
+	.logo__link {
+		font-family: 'Montserrat Bold', sans-serif;;
+		font-size: 20px;
+		color: #fff;
+		letter-spacing: 1px;
+    	line-height: 2.1em;		
+	}
+
+	.enter {
+	    width: 195px;
+    	padding: 1px 0 0 7px;
+    	float: right;
+	}
+
+	.enter__log-in, 
+	.enter__sign-up {
+		border: 2px solid transparent;
+		background-color: transparent;
+	}
+	
+	.enter__log-in:hover, 
+	.enter__sign-up:hover {
+		border: 2px solid #fff;
+	}
+
+	.enter__link {
+		display: block;
+		font-family: 'Montserrat Bold', sans-serif;
+		font-size: 14px;
+		line-height: 2.6em;
+		padding: 0 17px;
+		color: #fff;	
+	}
+
+	.slogan {
+		color: white;
+		max-width: 500px;
+    	margin: 0 auto;
+	}
+
+	.slogan__title {
+		font-family: 'Montserrat Bold', sans-serif;
+		font-size: 52px;
+		line-height: 1.2em;
+	}
+		
+	.slogan__text {
+		font-family: 'Roboto Light', sans-serif;
+		line-height: 2em;
+    	font-size: 23px;
+    	padding: 15px 0;
+	}
+
+	.slogan__button {
+		background-color: #ff4e50;
+		border: 2px solid #ff4e50;
+		margin-top: 10px;
+	}
+
+	.slogan__button:hover {
+		border: 2px solid #fff;
+	}
+
+	.slogan__link {
+		display: block;
+		font-family: 'Montserrat Bold', sans-serif;
+		font-size: 14px;
+		line-height: 2.8em;
+		padding: 0 22px;
+		color: #fff;
+	}
+
+	/* ----------- SLIDERS ------------ */
+
+	.sliders {
+		max-width: 960px;
+		margin: 0 auto;
+		position: relative;
+    	overflow: hidden;
+	}
+
+	.block-title {
+		padding: 93px 0 29px;
+		font-family: 'Montserrat Bold', sans-serif;
+		font-size: 22px;
+		text-align: center;
+	}
+
+	.jcarousel {
+		width: 33.3%;
+    	height: 410px;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		padding: 5px;
+	}
+	
+	.jcarousel ul {
+			width: 20000em;
+			position: relative;
+			list-style: none;
+	}
+
+	.jcarousel li {
+		float: left;
+	}
+
+	.slider__group {
+		width: 300px;
+	    height: 400px;
+	    color: #fff;
+	    margin: 0px 5px;
+	}
+
+	.step1 {
+		background: url(../img/step1.jpg) center center no-repeat;
+		background-size: cover;
+	}
+
+	.step2 {
+		background: url(../img/step2.jpg) center center no-repeat;
+		background-size: cover;
+	}
+
+	.step3 {
+		background: url(../img/step3.jpg) center center no-repeat;
+		background-size: cover;
+	}
+
+	.slider__step {
+		width: 70px;
+		height: 20px;
+		font: 10px/21px 'Montserrat Bold', sans-serif;
+		background-color: #ff4e50;
+		text-transform: uppercase;
+		margin-bottom: 17px;
+		text-align: center;
+		letter-spacing: 2px;	   
+	}
+
+	.slider__info {
+		height: inherit;
+	    display: table-cell;
+	    vertical-align: bottom;
+	    padding: 17px 20px;
+	}
+
+	.slider__title {
+		font: bold 24px/27px 'Montserrat Bold', sans-serif;
+	}
+
+	.slider__text {
+		margin-top: 10px;
+		font: 14px/17px 'Roboto Light', sans-serif;
+		color: #ccc;
+	}
+
+	.arrows__left, .arrows__right {
+		position: absolute;
+		top: 158px;
+		width: 30px;
+		height: 55px;
+		display: block;
+	}
+
+	.arrows__left:hover, .arrows__right:hover {
+		opacity: 0.8;
+	}
+
+	.arrows__left:active, .arrows__right:active {
+		opacity: 1;
+	}
+
+	.arrows__left {
+		left: 31px;
+		background: url(../img/arrow-left.png);
+	} 
+
+	.arrows__right {
+		right: 28px;
+		background: url(../img/arrow-right.png); 
+	}
+
+	/* ----------- PARTNERS ------------- */
+
+	.partners {
+		text-align: center;
+		padding: 0;
+		max-width: 960px;
+    	margin: 0 auto;
+	}
+
+	.partners h3 {
+		padding: 93px 0 29px;
+	}
+
+	.partners__group {
+		padding-right: 5px;
+		position: relative;
+    	overflow: hidden;
+	}
+
+	.partner {
+		padding: 0 6px 17px 10px;
+		width: 25%;
+		float: left;
+	}
+
+	.partner__foto {
+	    position: relative;
+	    width: 125px;
+	    height: 125px;
+	    margin: 0px auto;
+	}
+
+	.partner__icon1,
+	.partner__icon2,
+	.partner__icon3,
+	.partner__icon4 {
+		position: absolute;
+	    right: 0px;
+	    bottom: 0px;
+	    width: 42px;
+	    height: 40px;
+	}
+
+	.partner__icon1 {
+		background: url(../img/icons_partners.png) 0 0 no-repeat;
+	}
+
+	.partner__icon2 {
+		background: url(../img/icons_partners.png) 0 -42px no-repeat;
+	}
+
+	.partner__icon3 {
+		background: url(../img/icons_partners.png) 0 -86px no-repeat;
+	}
+
+	.partner__icon4 {
+		background: url(../img/icons_partners.png) 0 -132px no-repeat;
+	}
+
+	.partner__name {
+		padding: 14px 0 13px;
+	}
+
+	.partner__info {
+		font-family: 'Roboto Light', sans-serif;
+		font-size: 14px;
+		line-height: 1.3em;
+		color: #666;
+	}
+
+	.partners__button {
+		background-color: transparent;
+		border: 2px solid #ff4e50;
+		margin: 13px 0 3px;
+    	transition: all 0.25s;
+	}
+
+	.partners__button:hover {
+		background-color: #ff4e50;
+	}
+
+	.partners__button:hover a {
+		color: #fff;
+	}
+
+	.partners__link {
+		font-family: 'Montserrat Bold', sans-serif;
+		font-size: 14px;
+	    line-height: 2.7em;
+ 	    color: #ff4e50;
+    	padding: 0 69px;
+    	letter-spacing: 1px;
+	}
+
+	/* ------------- IDEAS -------------- */
+
+	.ideas {
+		text-align: center;
+	}
+
+	.ideas h3 {
+		padding: 93px 0 25px;
+	}
+
+/*	.grid {
+		width: 960px;
+    	margin: 0 auto;
+	}
+
+	.grid__item {
+		margin: 5px 10px;
+		height: 120px;
+		width: 300px;
+		border-radius: 5px;
+	}
+
+	.grid__text {
+		padding: 0 15px;
+		width: inherit;
+		height: inherit;
+		display: table-cell;
+		vertical-align: middle;
+		font-family: $font-Bold;
+		color: #fff;
+		font-size: 22px;
+		text-transform: capitalize;
+	}*/
+
+
+	/* ----------- SEARCH ----------- */
+
+	.search {
+		text-align: center;
+		padding: 0 0 74px;
+    	margin-top: 4px;
+	}
+
+	.search h3 {
+		padding: 31px 0 22px;   
+	}
+
+	.search__question {
+		font-family: 'Roboto Light', sans-serif;
+		font-size: 18px;
+		line-height: 2em;
+		color: #333;
+	}
+
+	.search__form {
+		padding: 24px 0;
+	}
+
+	.search__input {
+		width: 237px;
+		height: 40px;
+	    border: 1px solid #bbb;
+	    padding-left: 13px;
+	  	outline: none;
+	  	font-family: 'Roboto Light', sans-serif;
+		font-size: 14px;
+		line-height: 38px;
+		color: #333;
+	}
+
+	.search__button {
+		margin: 8px 0 0 4px;
+		background-color: #ff4e50;
+		border: 2px solid #ff4e50;
+		outline: none;
+	}
+
+	.search__button:hover {
+		background-color: transparent;
+	}
+		
+	.search__button:hover a {
+		color: #ff4e50;
+	}
+
+	.search__link {
+	    color: #fff;
+	    font-family: 'Montserrat Bold', sans-serif;
+		font-size: 14px;
+		line-height: 2.1em;
+		padding: 4px 23px;
+	}
+
+	/* ------------- FOOTER -------------- */
+
+	.footer {
+		padding: 33px 0;
+    	border-top: 5px solid #ff4e50;
+		width: 100%;
+		text-align: center;
+		position: relative;
+    	overflow: hidden;
+	}
+
+	.footer__inner {
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	.footer__logo, .company__title, .footer-partners__link {
+		font-family: 'Montserrat Bold', sans-serif;
+		font-size: 14px;
+		color: #333;
+		line-height: 2em;
+	}
+
+	.footer__logo {
+		width: 17%;
+		float: left;
+		color: #ff4e50;
+    	letter-spacing: 2px;
+	}
+
+	.company {
+	    width: 16%;
+	    padding: 0;
+	    margin-left: 9%;
+	    float: left;
+	    text-align: left;
+	}
+
+	.company__list {
+	    width: 100%;
+	    position: relative;
+    	overflow: hidden;
+	}
+
+	.company__item {
+		padding-right: 14px;
+	}
+
+	.company__link {
+	    font-family: "Roboto Light",sans-serif;
+	    font-size: 14px;
+	    line-height: 1.8em;
+	    color: #666;
+	}
+
+	.footer-partners {
+		float: left;
+		width: 8%;
+		padding-left: 6px;
+		text-align: left;
+	}
+
+	.copyright {
+		float: right;
+    	width: 15%;
+    	padding: 0 0 0 10px;
+	}
+
+	.copyright__text {
+	    padding-right: 9px;
+	    float: right;
+	    font-family: "Montserrat Bold",sans-serif;
+    	font-size: 10px;
+    	color: #ccc;
+    	line-height: 2.6em;
+    	letter-spacing: 1px;
+	}
+
+
+.enter__log-in, 
+.enter__sign-up,
+.slogan__button,
+.partners__button,
+.search__button {
+	height: 40px;
+
+}
+
+.enter__log-in, 
+.enter__sign-up {
+	width: 80px;
+}
+
+.enter__log-in a, 
+.enter__sign-up a {
+	color: white;
+}
+
+.slogan__button {
+	width: 228px;
+}
+
+.partners__button {
+	width: 208px;
+}
+
+.search__button {
+	width: 164px;
+}
