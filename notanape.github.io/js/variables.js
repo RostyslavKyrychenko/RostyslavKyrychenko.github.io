@@ -8,6 +8,7 @@ var $smsUrl = "https://alfa-credits.com.ua/sms_submit";
 var $formData = {
     first_name: "",
     last_name: "",
+    mobite: "",
     inn: "",
     placement: "",
     url: "https://ad.admitad.com/g/5351d3d56e7145ae5681e6dcee139a0ef8bffa25/",
