@@ -84,7 +84,7 @@ function _sendForm() {
             $data = this.responseText;
        }
     };
-    xhttp.open("GET", $formUrl, true);
+    xhttp.open("POST", $formUrl, true);
     xhttp.send();
     $modal = window.open("modal.html", "Confirm", "width=300,height=200");
 
