@@ -3,8 +3,8 @@ var $cor = "white";
 var $error = null;
 var $errorInfo = null;
 var $modal = null;
-var $formUrl = "https://alfa-credits.com.ua/card/submit";
-var $smsUrl = "https://alfa-credits.com.ua/sms_submit";
+var $formUrl = "//alfa-credits.com.ua/card/submit";
+var $smsUrl = "//alfa-credits.com.ua/sms_submit";
 var $formData = {
     first_name: "",
     last_name: "",
