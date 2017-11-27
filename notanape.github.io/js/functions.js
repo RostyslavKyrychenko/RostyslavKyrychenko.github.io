@@ -58,7 +58,8 @@ function _check() {
         $formData.first_name = $("#name").val().trim();
         $formData.last_name = $("#surname").val().trim();
         $formData.inn = $("#ID").val().trim();
-        $formData.placement = $(":selected", "#job").text();
+        $formData.placement = $(":selected", "#job").val();
+        $formData.phone = $("#mobile").val().trim();
         _sendForm();
     }
 }
